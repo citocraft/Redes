@@ -1,12 +1,13 @@
 body {
-    /*background-color: rgb(218, 120, 120);*/
-    background: url(img/bg2.jpg) no-repeat center center fixed;
-    background-size: cover;
+   /* background-color: rgb(218, 120, 120);*/
+    /*background-image: url(img/Paisaje\ neón\ 2\ -\ Neon\ landscape\ 2\ 『PC』.jpg);*/
     display: flex;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-position: src = ".cuadrado";
+
+    background: url(img/bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 img {
@@ -19,7 +20,7 @@ img {
 
 .profile-img{
     height: 190px;
-    width: 190;
+    
 }
 
 .social-networks a{
@@ -49,7 +50,11 @@ img {
 }
 
 .social-networks a.twitter{
-    background-color: #5bd1d7;
+    background-color: #1DA1F2;
+}
+
+.social-networks a.discord{
+    background-color: #7289DA;
 }
 
 .cuadrado {
@@ -59,5 +64,17 @@ img {
     background: red;        /* Fondo de color rojo */
     border: 1px solid #000; /* Borde color negro y de 1 píxel de grosor */
     
+}
+
+#bg_video{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#div-img {
+    margin-bottom: 15px;
 }
 
