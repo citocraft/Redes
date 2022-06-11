@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background: url(img/collageEmotes.png) no-repeat center center fixed;
+    background: url(img/ABSTRACT_BACKGROUND_01.jpg) no-repeat center center fixed;
     background-size: cover;
     backdrop-filter: blur(10px);
 }
