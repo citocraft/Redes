@@ -58,6 +58,10 @@ img {
     background-color: #7289DA;
 }
 
+.social-networks a.store{
+    background-color: #da6464;
+}
+
 .cuadrado {
     z-index: 100;
     width: 150px;           /* Ancho de 150 píxeles */
